@@ -1,0 +1,24 @@
+{
+  "name": "node-stock-sampler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stierma1/node-stock-sampler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stierma1/node-stock-sampler/issues"
+  },
+  "homepage": "https://github.com/stierma1/node-stock-sampler#readme",
+  "dependencies": {
+    "installation-station": "^1.0.1",
+    "pid-async-class": "^1.0.6",
+    "yahoo-finance": "^0.2.16"
+  }
+}
