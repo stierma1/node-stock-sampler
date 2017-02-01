@@ -14,12 +14,16 @@ var PouchDB = require("pouchdb");
     }, {
         question: "Please give polling schedule for daily: ",
         key: "dailySchedule"
+        format: "INT",
+        defaultValue: 60 * 60 * 24 * 1000
     }, {
         question: "Where is the realtime config located?: ",
         key: "realtimeConfigLocation"
     }, {
         question: "What will the realtime concurrency be?: ",
-        key: "realtimeConcurrency"
+        key: "realtimeConcurrency",
+        format: "INT",
+        defaultValue: 3
     }, {
         question: "Should I upload the stock symbols to the realtime config location?(y/n): ",
         key: "uploadSymbolsRealtime"
@@ -28,7 +32,9 @@ var PouchDB = require("pouchdb");
         key: "uploadFieldsRealtime"
     }, {
         question: "Please give polling schedule for realtime: ",
-        key: "realtimeSchedule"
+        key: "realtimeSchedule",
+        format: "INT",
+        defaultValue: 60 * 20 * 1000
     }], "local")
 
     var nEw = require("pid-async-class").nEw;
