@@ -13,7 +13,7 @@ var PouchDB = require("pouchdb");
         key: "uploadFieldsDaily"
     }, {
         question: "Please give polling schedule for daily: ",
-        key: "dailySchedule"
+        key: "dailySchedule",
         format: "INT",
         defaultValue: 60 * 60 * 24 * 1000
     }, {
