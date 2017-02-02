@@ -35,7 +35,7 @@ var PouchDB = require("pouchdb");
         key: "realtimeSchedule",
         format: "INT",
         defaultValue: 60 * 20 * 1000
-    }], "local")
+    }], "remote")
 
     var nEw = require("pid-async-class").nEw;
     var Configurator = require("./configurator");
