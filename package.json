@@ -20,6 +20,7 @@
   "dependencies": {
     "installation-station": "^1.0.4",
     "pid-async-class": "^1.0.6",
+    "simple-statistics": "^2.3.0",
     "yahoo-finance": "^0.2.16"
   }
 }
